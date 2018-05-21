@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+#ad {
+  display: block;
+  border: rgb(145, 153, 153) 1px solid;
+  overflow: hidden;
+  width: 298px;
+  height: 248px;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  visibility: hidden;
+}
+
+#bg-exit {
+  width:300px;
+  height:250px;
+  top:0;
+  left:0;
+  cursor:pointer;
+  opacity:0;
+  z-index:10;
+  background-color:#FFF;
+  position:absolute;
+}
+
+#banner {
+  position: absolute;
+  display: block;
+  width: 298px;
+  height: 248px;
+  overflow: hidden;
+  background-image: url('../images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#frame-1-headline-1 {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  width: 164px;
+  height: 43px;
+  background-image: url("../images/frame-1-headline-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#frame-1-headline-2 {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  width: 202px;
+  height: 89px;
+  background-image: url("../images/frame-1-headline-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#frame-2-text {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  width: 210px;
+  height: 39px;
+  background-image: url("../images/frame-2-text.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  opacity: 0;
+}
+
+#clickthrough-button {
+  border: none;
+  position: absolute;
+  left: 15px;
+  top: 80px;
+  width: 138px;
+  height: 36px;
+  border-radius: 33px;
+  background-color: #ffcb05;
+  background-image: url("../images/cta-copy.png");
+  background-position: 16px 12px;
+  background-size: 90px;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 0px rgba(35,31,32,0.33);
+  cursor: pointer;
+  opacity: 0;
+}
+
+  #arrow {
+    position: absolute;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 8px;
+    height: 13px;
+    top: 12px;
+    right: 16px;
+    background-size: 8px 13px;
+    transition: all 0.2s ease;
+  }
+
+#ad:hover #clickthrough-button {
+  background-color: #ffd633;
+}
+
+  #ad:hover #arrow {
+    right: 10px;
+  }
+
+#logo {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  height: 45px;
+  width: 270px;
+  background-image: url('../images/logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

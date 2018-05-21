@@ -1,0 +1,303 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.head
+{
+    width:100%;
+    height:90px;   
+}
+.ruppes
+{
+    width:300px;
+    height:35px;
+    border:4px solid white;
+    border-radius:999px 999px 999px 999px;
+    color:white;
+    padding:5px;
+    float:left;
+    margin-left:340px;
+    margin-top:20px;
+    box-shadow:5px 5px 5px #888888;
+    font-size:24px;
+    padding-left:12px;
+    background-color:darkblue;   
+}
+.ruppes:hover{      
+   color:blue; 
+   background-color:white; 
+   border-color:blue;
+   transition: border-color 2s ease-in-out;
+}
+#mid1 img
+{
+    height:100%;
+    width:100%;
+    border:2px solid white;
+    border-radius:8px 30px 8px 30px;
+}
+.lifeline td
+{
+    height:80px;
+    width:80px;
+    border-radius:55%;
+    float:left;
+    opacity:0.5;
+    margin-left:20px;
+    margin-top:3px;
+
+}
+.lifeline td:hover
+{
+   opacity:1.1;
+   transition:opacity 2s;
+   transform:scale(1.1,1.1);
+}
+.lifeImg
+{
+    height:80px;
+    width:80px;
+    border-radius: 55%;
+    padding:0px;
+    margin-right:6px;  
+}
+.lifeImg img
+{
+    height:78px;
+    width:78px;
+    border-radius: 55%;
+}
+
+.left{
+    width:17%;
+    height:300px;
+    border:2px solid white;
+    float:left;
+    border-radius: 30px 15px 15px 20px;
+    background-color:#14006B;
+    color:yellow;
+    padding-top:10px;
+    margin-left:25px;
+    opacity:0.9;
+}
+.left img{
+    
+    margin-top:40px;   
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:2px solid white;
+    margin-left:45px;
+    opacity:0.8;
+}
+.left div
+{
+    
+    margin-top:30px;
+    font-size:20px;
+    font-weight: bolder;
+    font-style:italic;
+    color:yellow;
+}
+.left table
+{
+    margin-top:30px;
+   font-size:30px;
+   background-color:#14006B;
+   border:2px solid ;
+   background-color:white;
+   opacity:0.8;
+   color:white;
+   border-radius:10px 10px 10px 10px;
+   padding:5px;
+}
+.left table tr td{
+    width:45px;
+    border-radius:50%;
+    background-color:black;
+    text-align: center;
+}
+.right{
+    width:22%;
+    height:330px;
+    float:left;
+    margin-left:30px;
+    margin-top:5px; 
+}
+.price
+{
+    color:white;
+    border-radius:15px;
+    box-shadow:5px 5px 5px #888888;
+    width:100%; 
+} 
+.price tr td{
+    margin-left:10px;
+    padding:8px;
+    border-radius:6px;
+}
+.audi
+{
+    width:100%;
+    height:200px;
+}
+.time2 {
+   height:80px;
+   width:80px;
+   border-radius: 50%;
+   padding:0px;
+   margin:0px;
+   box-shadow:5px 5px 15px #888888;     
+}
+.time2 img{
+   height:80px;
+   width:80px;
+   border-radius: 50%;
+   opacity:0.8;     
+}
+.time2:hover>img{  
+   opacity:1.1;
+   transform:scale(1.2,1.2);
+   transition:opacity 2s; 
+}
+
+.question
+{
+  width:57%;
+  height:75px;
+  border:2px solid white;
+  float:left;
+  margin-left:150px;
+  border-radius:999px 999px 999px 999px;
+  background-color:#14006B;
+  opacity:0.9;
+  color:white;
+  box-shadow:5px 5px 5px #888888;
+  font-size:26px;
+  padding-left:25px;
+  padding-top:20px;
+  font-style: italic;
+  margin-top:0px;                
+}
+.option
+{
+  margin-left:250px;
+}
+.option button
+{
+   float:left;
+   width:260px;
+   height:40px;
+   border:2px solid white;
+   margin-top:10px;
+   border-radius:999px 999px 999px 999px;
+   background-color: #701C82;
+}
+.option button:hover
+{
+    transform:scale(1.1,1.1);
+    opacity:0.7;
+}
+*
+{
+    margin:0px;
+}
+ .mid
+         {
+            width: 52.8%;
+            height: 300px;
+            border: 2px solid white;
+            float: left;
+            overflow: hidden;
+            margin-left: 20px;
+            opacity: 0.9;
+            border-radius: 6px 6px 6px 6px;
+            box-shadow: 5px 5px 5px 6px #888888;
+            color: white;
+        }
+        
+        .mid h1,h2
+        {
+            text-align: center;
+            padding-top: 70px;
+        }
+        
+        #background {
+            width: 100%;
+            
+            
+            border-radius: 8px;
+            margin-top: 0px;
+        }
+        
+        div {
+            position: relative;
+            animation: mymove 3s alternate ease-out;
+            animation-iteration-count: 1;
+        }
+        
+        @keyframes mymove {
+            from {
+                left: 500px;
+            }
+            to {
+                left: 0px;
+            }
+        }
+        
+        @keyframes my {
+            0% {
+                background-color: blue
+            }
+            25% {
+                background-color: red;
+            }
+            50% {
+                background-color: orange;
+            }
+            100% {
+                background-color: #14006B
+            }
+        }
+        
+        @keyframes my2 {
+            0% {
+                background-color: #FF4C4C
+            }
+            50% {
+                background-color: orange
+            }
+        }
+        
+        #t1:hover {
+            position: relative;
+            animation: my 2s alternate ease-in;
+            animation-iteration-count: 3;
+        }
+        
+        #t2:hover {
+            position: relative;
+            animation: my 2s alternate ease-in;
+            animation-iteration-count: 3;
+        }
+        
+        #t3:hover {
+            position: relative;
+            animation: my 2s alternate ease-in;
+            animation-iteration-count: 3;
+        }
+        
+        #t4:hover {
+            position: relative;
+            animation: my 2s alternate ease-in;
+            animation-iteration-count: 3;
+        }
+        
+        #ta14,
+        #ta12,
+        #ta7,
+        #ta2 {
+            position: relative;
+            animation: my2 4s infinite ease-in;
+        }
